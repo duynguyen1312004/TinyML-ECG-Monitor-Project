@@ -52,11 +52,33 @@ Hệ thống IoMT (Internet of Medical Things) giám sát nhịp tim thời gian
 
 ## 📸 Hình ảnh Dự án
 
-<div align="center">
-  <img src="assets/mat-truoc-phan-cung.jpg" width="45%" alt="Hardware">
-  <img src="assets/ket-qua-thu-thap-1-phien-do.jpg" width="45%" alt="Android App">
-  <p><i>Hình 1: Mô hình phần cứng và Giao diện giám sát thời gian thực</i></p>
-</div>
+## 🎨 Minh họa Kỹ thuật & Thực nghiệm
+
+<table align="center">
+  <tr>
+    <td align="center"><b>Sơ đồ khối hệ thống</b></td>
+    <td align="center"><b>Ma trận nhầm lẫn (AI Metrics)</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/so-do-khoi-he-thong.jpg" width="100%"></td>
+    <td><img src="assets/ma-tran-nham-lan.jpg" width="100%"></td>
+  </tr>
+</table>
+
+<details>
+<summary><b>📷 Nhấn vào đây để xem thêm hình ảnh thực nghiệm chi tiết</b></summary>
+
+| Chống nhiễu & Sự cố | Kết quả lâm sàng |
+|---|---|
+| ![Tuột điện cực](assets/tuot-dien-cuc.jpg) | ![Báo cáo lâm sàng](assets/noi-dung-ket-qua-lam-san.jpg) |
+| *Xử lý trạng thái tuột điện cực* | *Chi tiết phiếu báo cáo gửi từ App* |
+
+| Giao diện chi tiết | Hình ảnh phần cứng |
+|---|---|
+| ![Lịch sử đo](assets/lich-su-do.jpg) | ![Mạch mặt sau](assets/mat-sau-phan-cung.jpg) |
+| *Quản lý lịch sử nhịp tim bất thường* | *Cấu trúc mạch trên Perfboard* |
+
+</details>
 
 ---
 
