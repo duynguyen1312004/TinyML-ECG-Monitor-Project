@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "498675585751",
+    "project_id": "ecg-monitor-f0976",
+    "storage_bucket": "ecg-monitor-f0976.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498675585751:android:7e2079ccd5abd71efc1692",
+        "android_client_info": {
+          "package_name": "com.example.ecg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHS8JN4cSMnYphMeHCEwfqjhkCJEU6PmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

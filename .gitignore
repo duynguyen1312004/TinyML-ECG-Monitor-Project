@@ -1,0 +1,24 @@
+# Android rác
+.gradle/
+build/
+captures/
+local.properties
+.cxx/
+*.iml
+.idea/
+
+# Python rác
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# ESP32/Arduino rác
+libraries/
+build/
+.vscode/arduino.json
+
+# Hệ điều hành
+Thumbs.db
+.DS_Store
