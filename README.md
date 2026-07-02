@@ -73,9 +73,14 @@ Hệ thống IoMT (Internet of Medical Things) giám sát nhịp tim thời gian
 | ![Tuột điện cực](assets/tuot-dien-cuc.jpg) | ![Báo cáo lâm sàng](assets/noi-dung-ket-qua-lam-san.jpg) |
 | *Xử lý trạng thái tuột điện cực* | *Chi tiết phiếu báo cáo gửi từ App* |
 
+| triển khai thiết bị | quá trình đo |
+|---|---|
+| ![Dán điện cực](assets/dan-thiet-bi.jpg) | ![Quá trình đo](assets/song-binh-thuong.jpg) |
+| *Xử lý trạng thái tuột điện cực* | *Chi tiết phiếu báo cáo gửi từ App* |
+
 | Giao diện chi tiết | Hình ảnh phần cứng |
 |---|---|
-| ![Lịch sử đo](assets/lich-su-do.jpg) | ![Mạch mặt sau](assets/mat-sau-phan-cung.jpg) |
+| ![Lịch sử đo](assets/lich-su-do.jpg) | ![Mạch mặt trước](assets/mat-truoc-phan-cung.jpg) |
 | *Quản lý lịch sử nhịp tim bất thường* | *Cấu trúc mạch trên Perfboard* |
 
 </details>
