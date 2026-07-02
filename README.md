@@ -29,28 +29,40 @@ Hệ thống IoMT (Internet of Medical Things) giám sát nhịp tim thời gian
 ├── assets/              # Hình ảnh thực tế, sơ đồ mạch và kết quả thực nghiệm
 └── .gitignore           # Bộ lọc rác cho dự án Android và C++
 ```
-🛠 Công nghệ sử dụng
-Thành phần	Công nghệ
-Vi điều khiển	ESP32 (Dual-core 240MHz)
-Cảm biến	AD8232 ECG Sensor
-Framework AI	Edge Impulse, TensorFlow Lite for Microcontrollers
-Mobile App	Android Studio (Java), Firebase Realtime DB
-Giao thức	MQTT SSL/TLS, JSON
-Xử lý tín hiệu	Digital Notch Filter (IIR bậc 2), Zero-padding
+## 🛠 Công nghệ sử dụng
 
-📊 Kết quả thực nghiệm
-Độ chính xác (Accuracy): 96.91% trên tập dữ liệu kiểm thử độc lập.
-Độ trễ End-to-end: ~1 giây (Đáp ứng tiêu chuẩn giám sát thời gian thực).
-Hiệu suất RAM: Chỉ chiếm ~1.5% tổng dung lượng RAM của ESP32.
+| Thành phần | Công nghệ |
+|---|---|
+| **Vi điều khiển** | ESP32 (Dual-core 240MHz) |
+| **Cảm biến** | AD8232 ECG Sensor |
+| **Framework AI** | Edge Impulse, TensorFlow Lite for Microcontrollers |
+| **Mobile App** | Android Studio (Java), Firebase Realtime DB |
+| **Giao thức** | MQTT SSL/TLS, JSON |
+| **Xử lý tín hiệu** | Digital Notch Filter (IIR bậc 2), Zero-padding |
 
-📸 Hình ảnh Dự án
+---
+
+## 📊 Kết quả thực nghiệm
+
+- **Độ chính xác (Accuracy):** 96.91% trên tập dữ liệu kiểm thử độc lập.
+- **Độ trễ End-to-end:** ~1 giây (Đáp ứng tiêu chuẩn giám sát thời gian thực).
+- **Hiệu suất RAM:** Chỉ chiếm ~1.5% tổng dung lượng RAM của ESP32.
+
+---
+
+## 📸 Hình ảnh Dự án
+
 <div align="center">
-<img src="assets/mat-truoc-phan-cung.jpg" width="45%" alt="Hardware">
-<img src="assets/ket-qua-thu-thap-1-phien-do.jpg" width="45%" alt="Android App">
-<p><i>Hình 1: Mô hình phần cứng và Giao diện giám sát thời gian thực</i></p>
+  <img src="assets/mat-truoc-phan-cung.jpg" width="45%" alt="Hardware">
+  <img src="assets/ket-qua-thu-thap-1-phien-do.jpg" width="45%" alt="Android App">
+  <p><i>Hình 1: Mô hình phần cứng và Giao diện giám sát thời gian thực</i></p>
 </div>
-👥 Nhóm thực hiện
-Sinh viên: Nguyễn Hữu Duy & Nguyễn Đại Minh Huy.
-Giảng viên hướng dẫn: ThS. Nguyễn Quốc Khoa.
-Đơn vị: Khoa Điện tử - Viễn thông, Trường ĐH Khoa học Tự nhiên - ĐHQG TP.HCM.
+
+---
+
+## 👥 Nhóm thực hiện
+- **Sinh viên:** Nguyễn Hữu Duy & Nguyễn Đại Minh Huy.
+- **Giảng viên hướng dẫn:** ThS. Nguyễn Quốc Khoa.
+- **Đơn vị:** Khoa Điện tử - Viễn thông, Trường ĐH Khoa học Tự nhiên - ĐHQG TP.HCM.
+
 Dự án này là kết quả của Khóa luận tốt nghiệp năm 2026.
