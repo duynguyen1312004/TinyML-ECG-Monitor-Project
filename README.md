@@ -28,7 +28,7 @@ Hệ thống IoMT (Internet of Medical Things) giám sát nhịp tim thời gian
 ├── python-processing/   # Script Python tiền xử lý dữ liệu và phân tích tín hiệu
 ├── assets/              # Hình ảnh thực tế, sơ đồ mạch và kết quả thực nghiệm
 └── .gitignore           # Bộ lọc rác cho dự án Android và C++
-
+```
 🛠 Công nghệ sử dụng
 Thành phần	Công nghệ
 Vi điều khiển	ESP32 (Dual-core 240MHz)
